@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/detalle-no-aprov.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
+  </head>
+  <body style="margin: 0; background: #fdfdfd">
+    <input type="hidden" id="anPageName" name="page" value="detalle-no-aprov" />
+    <div class="container-center-horizontal">
+      <div class="detalle-no-aprov screen">
+        <div class="rectngulo-49"></div>
+        <div class="flex-row">
+          <a href="{% url 'categorias' %}">
+            <div class="componente-24-23">
+              <div class="continuar">
+                <div class="flecha">
+                  <div class="lnea-container">
+                    <img class="lnea-1" src="{% static 'sasvar_app/img/l-nea-1-10@1x.png' %}" alt="Lnea 1" />
+                    <img class="lnea-2" src="{% static 'sasvar_app/img/l-nea-2-10@1x.png' %}" alt="Lnea 2" />
+                    <img class="lnea-3" src="{% static 'sasvar_app/img/l-nea-3-12@1x.png' %}" alt="Lnea 3" />
+                    <img class="lnea-5" src="{% static 'sasvar_app/img/l-nea-5-11@1x.png' %}" alt="Lnea 5" />
+                  </div>
+                </div>
+              </div>
+              <div class="textos-principales"><div class="atrs montserrat-normal-log-cabin-18px">Atrás</div></div>
+            </div></a
+          >
+          <div class="ayuda">
+            <div class="texto-pequeo"><div class="ayuda-1 montserrat-normal-shark-16px">Ayuda</div></div>
+            <div class="overlap-group2">
+              <div class="text-8 arialroundedmt-bold-shark-20px">?</div>
+              <img class="trazado-1059" src="{% static 'sasvar_app/img/trazado-1059-1@1x.png' %}" alt="Trazado 1059" />
+            </div>
+          </div>
+        </div>
+        <div class="componente-25-2">
+          <div class="overlap-group1">
+            <div class="rectngulo-container">
+              <div class="rectngulo-46"></div>
+              <div class="rectngulo-45"></div>
+              <div class="rectngulo-40"></div>
+            </div>
+            <div class="negra"></div>
+            <h1 class="title montserrat-bold-shark-30px">Residuos no aprovechables</h1>
+          </div>
+        </div>
+        <div class="textos-principales-1">
+          <p class="en-la-caneca-negra-d montserrat-normal-oslo-gray-18px">
+            En la caneca negra debes depositar papel o cartón contaminados, servilletas, chicles, residuos de barrido,
+            huesos y bolsas de aromática
+          </p>
+        </div>
+        <div class="barra-men">
+          <a href="{% url 'categorias' %}"> <div class="reading-open-book"></div></a
+          ><a href="{% url 'escaneo' %}">
+            <div class="botn-de-escaneo">
+              <div class="overlap-group">
+                <div class="cono-escaneo"></div>
+              </div></div></a
+          ><a href="{% url 'inicio' %}"> <div class="web-page-home"></div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

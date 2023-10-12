@@ -1,0 +1,228 @@
+/* screen - intro-6 */
+
+.intro-6 {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  padding: 24px 29px;
+  width: 375px;
+}
+
+.intro-6 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 137px;
+  min-width: 314px;
+}
+
+.intro-6 .componente-24-7 {
+  align-items: flex-end;
+  display: flex;
+  gap: 12px;
+  height: 40px;
+  width: 106px;
+}
+
+.intro-6 .continuar {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.intro-6 .flecha {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  min-width: 19px;
+}
+
+.intro-6 .lnea-container {
+  height: 17px;
+  margin-left: -2px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.intro-6 .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 19px;
+}
+
+.intro-6 .lnea-2 {
+  height: 3px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 22px;
+}
+
+.intro-6 .lnea-3 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.intro-6 .lnea-5 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.intro-6 .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 26px;
+  margin-bottom: -9.3px;
+  width: 56px;
+}
+
+.intro-6 .textos-principales-1 {
+  cursor: pointer;
+  height: 22px;
+  margin-top: 4px;
+  width: 71px;
+}
+
+.intro-6 .ttulos-grandes {
+  align-items: flex-end;
+  display: flex;
+  height: 184px;
+  margin-top: 249px;
+  width: 314px;
+}
+
+.intro-6 .consulta-la-clasific {
+  color: var(--shark);
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  height: 186px;
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-right: -2px;
+}
+
+.intro-6 .textos-principales-2 {
+  height: 112px;
+  margin-top: 15px;
+  width: 314px;
+}
+
+.intro-6 .en-el-men-de-inicio {
+  flex: 1;
+  height: 114px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.intro-6 .botn-accin {
+  align-self: center;
+  background-color: var(--bianca);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000001a;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  margin-left: 1.0px;
+  margin-top: 64px;
+  width: 312px;
+}
+
+.intro-6 .textos-principales-3 {
+  height: 22px;
+  margin-left: 16px;
+  width: 226px;
+}
+
+.intro-6 .continuar-1 {
+  flex: 1;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  white-space: nowrap;
+}
+
+.intro-6 .continuar-2 {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+  margin-right: 16px;
+  margin-top: 12px;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.intro-6 .flecha-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 19px;
+}
+
+.intro-6 .lnea-container-1 {
+  height: 17px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.intro-6 .lnea-1-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.intro-6 .lnea-2-1 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 22px;
+}
+
+.intro-6 .lnea-3-1 {
+  height: 10px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.intro-6 .lnea-5-1 {
+  height: 11px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}

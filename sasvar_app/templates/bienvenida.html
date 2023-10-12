@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/bienvenida.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
+  </head>
+  <body style="margin: 0; background: #252527">
+    <input type="hidden" id="anPageName" name="page" value="bienvenida" />
+    <div class="container-center-horizontal">
+      <div class="bienvenida screen">
+        <div class="grupo-134 grupo"></div>
+        <div class="overlap-group1">
+          <div class="grupo-133 grupo"></div>
+          <div class="ttulos-grandes"><h1 class="title">Bienvenido la app sasvar</h1></div>
+          <div class="textos-principales">
+            <p class="recibe-asistencia-pa">Recibe asistencia para separar tus residuos e información de utilidad</p>
+          </div>
+          <!-- <a href="intro-1.html"> -->
+          <a href="{% url 'intro_1' %}">
+            <div class="botn-accin">
+              <div class="textos-principales-1"><div class="continuar montserrat-bold-shark-18px">Continuar</div></div>
+              <div class="continuar-1">
+                <div class="flecha">
+                  <div class="lnea-container">
+                    <img class="lnea-1" src="{% static 'sasvar_app/img/l-nea-1-10@1x.png' %}" alt="Lnea 1" />
+                    <img class="lnea-2" src="{% static 'sasvar_app/img/l-nea-2-10@1x.png' %}" alt="Lnea 2" />
+                    <img class="lnea-3" src="{% static 'sasvar_app/img/l-nea-3-10@1x.png' %}" alt="Lnea 3" />
+                    <img class="lnea-5" src="{% static 'sasvar_app/img/l-nea-5-10@1x.png' %}" alt="Lnea 5" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

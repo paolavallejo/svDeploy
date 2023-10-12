@@ -1,0 +1,285 @@
+/* screen - detalle-reci-q1 */
+
+.detalle-reci-q1 {
+  align-items: center;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 369px;
+}
+
+.detalle-reci-q1 .rectngulo-49 {
+  background-color: var(--mountain-mist);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 24px;
+  margin-left: 6.0px;
+  width: 375px;
+}
+
+.detalle-reci-q1 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 140px;
+  margin-left: 15.0px;
+  margin-top: 16px;
+  min-width: 320px;
+}
+
+.detalle-reci-q1 .componente-24-24 {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  width: 96px;
+}
+
+.detalle-reci-q1 .continuar {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.detalle-reci-q1 .flecha {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  min-width: 19px;
+}
+
+.detalle-reci-q1 .lnea-container {
+  height: 17px;
+  margin-left: -2px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.detalle-reci-q1 .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 19px;
+}
+
+.detalle-reci-q1 .lnea-2 {
+  height: 3px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 22px;
+}
+
+.detalle-reci-q1 .lnea-3 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.detalle-reci-q1 .lnea-5 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.detalle-reci-q1 .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 26px;
+  margin-top: -11.1px;
+  width: 50px;
+}
+
+.detalle-reci-q1 .ayuda {
+  align-items: center;
+  display: flex;
+  gap: 1px;
+  min-width: 84px;
+}
+
+.detalle-reci-q1 .texto-pequeo {
+  display: flex;
+  height: 19px;
+  margin-bottom: 2.0px;
+  width: 52px;
+}
+
+.detalle-reci-q1 .ayuda-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -3.5px;
+  margin-right: -2px;
+  margin-top: 1.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.detalle-reci-q1 .overlap-group2 {
+  height: 31px;
+  position: relative;
+  width: 31px;
+}
+
+.detalle-reci-q1 .text-9 {
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.detalle-reci-q1 .componente-25-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 7.0px;
+  margin-top: 32px;
+  min-width: 312px;
+}
+
+.detalle-reci-q1 .overlap-group1 {
+  border-radius: 16px;
+  height: 320px;
+  position: relative;
+  width: 312px;
+}
+
+.detalle-reci-q1 .rectngulo-container {
+  border-radius: 16px;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.detalle-reci-q1 .rectngulo-46 {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000000f;
+  height: 318px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 312px;
+}
+
+.detalle-reci-q1 .rectngulo-45 {
+  background-color: var(--cadet-blue);
+  border-radius: 16px;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.detalle-reci-q1 .rectngulo-40 {
+  -webkit-backdrop-filter: blur(25px) brightness(114%);
+  backdrop-filter: blur(25px) brightness(114%);
+  background-color: var(--white-2);
+  border-radius: 16px;
+  box-shadow: 10px 10px 20px #0000001a;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.detalle-reci-q1 .papel-y-cartn-limpios {
+  height: 74px;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 30px;
+  width: 250px;
+}
+
+.detalle-reci-q1 .textos-principales-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 144px;
+  margin-left: 25.0px;
+  margin-top: 56px;
+  width: 314px;
+}
+
+.detalle-reci-q1 .barra-men {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 6.0px;
+  margin-top: 73px;
+  min-width: 309px;
+}
+
+.detalle-reci-q1 .reading-open-book {
+  background-image: url(../img/grupo-114-3@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 33px;
+  margin-top: 0.61px;
+  width: 33px;
+}
+
+.detalle-reci-q1 .botn-de-escaneo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  justify-content: center;
+  margin-left: 90px;
+  min-width: 63px;
+}
+
+.detalle-reci-q1 .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/trazado-1100-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 90px;
+  margin-top: -9.0px;
+  min-width: 90px;
+  padding: 19.1px 23.6px;
+}
+
+.detalle-reci-q1 .cono-escaneo {
+  background-image: url(../img/grupo-103-5@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.detalle-reci-q1 .web-page-home {
+  background-image: url(../img/grupo-105-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 32px;
+  margin-left: 86px;
+  margin-top: 1.32px;
+  width: 37px;
+}

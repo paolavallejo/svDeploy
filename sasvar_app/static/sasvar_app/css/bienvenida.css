@@ -1,0 +1,180 @@
+/* screen - bienvenida */
+
+.bienvenida {
+  align-items: flex-start;
+  background-color: var(--shark);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.bienvenida .grupo-134 {
+  align-self: flex-end;
+  background-image: url(../img/grupo-132-1@1x.png);
+  height: 387px;
+  margin-right: -102.71px;
+  margin-top: -9px;
+}
+
+.bienvenida .overlap-group1 {
+  height: 433px;
+  margin-left: -101.71px;
+  position: relative;
+  width: 448px;
+}
+
+.bienvenida .grupo-133 {
+  background-image: url(../img/grupo-132@1x.png);
+  height: 401px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+}
+
+.bienvenida .ttulos-grandes {
+  align-items: flex-end;
+  display: flex;
+  height: 96px;
+  left: 134px;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.bienvenida .title {
+  color: #f7faf1;
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  height: 98px;
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-right: -2px;
+}
+
+.bienvenida .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  height: 46px;
+  left: 134px;
+  position: absolute;
+  top: 112px;
+  width: 314px;
+}
+
+.bienvenida .recibe-asistencia-pa {
+  color: #f7faf1;
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.bienvenida .botn-accin {
+  background-color: var(--bianca);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000001a;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  left: 134px;
+  position: absolute;
+  top: 304px;
+  width: 312px;
+}
+
+.bienvenida .textos-principales-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 22px;
+  margin-left: 16px;
+  width: 226px;
+}
+
+.bienvenida .continuar {
+  flex: 1;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  white-space: nowrap;
+}
+
+.bienvenida .continuar-1 {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 12px;
+  margin-right: 16px;
+  margin-top: 12px;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.bienvenida .flecha {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 19px;
+}
+
+.bienvenida .lnea-container {
+  height: 17px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.bienvenida .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.bienvenida .lnea-2 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 22px;
+}
+
+.bienvenida .lnea-3 {
+  height: 10px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.bienvenida .lnea-5 {
+  height: 11px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.bienvenida .grupo {
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.03;
+  width: 367px;
+}

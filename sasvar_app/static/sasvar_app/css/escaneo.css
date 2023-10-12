@@ -1,0 +1,386 @@
+/* screen - escaneo */
+
+.escaneo {
+  align-items: flex-start;
+  background-color: var(--coconut);
+  display: flex;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.escaneo .overlap-group2 {
+  height: 848px;
+  position: relative;
+  width: 375px;
+}
+
+.escaneo .group-7 {
+  align-items: flex-start;
+  background-image: url(../img/mask@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 720px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 375px;
+  opacity: 0.41;
+  padding: 306.3px 153.2px;
+  position: absolute;
+  top: 0;
+}
+
+.escaneo .photo-icon {
+  height: 40px;
+  object-fit: cover;
+  width: 68px;
+}
+
+.escaneo .rectngulo-44 {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 10px 10px 20px #0000001a;
+  height: 168px;
+  top: 680px;
+}
+
+.escaneo .grupo-50 {
+  flex-direction: column;
+  gap: 103px;
+  left: 32px;
+  min-height: 304px;
+  position: absolute;
+  top: 144px;
+  width: 312px;
+}
+
+.escaneo .grupo-6 {
+  gap: 123px;
+  height: 101px;
+  justify-content: flex-end;
+  min-width: 312px;
+}
+
+.escaneo .trazado {
+  height: 109px;
+  margin-top: -4.0px;
+  object-fit: cover;
+  width: 99px;
+}
+
+.escaneo .grupo-7 {
+  gap: 123px;
+  height: 101px;
+  min-width: 312px;
+}
+
+.escaneo .trazado-2 {
+  height: 109px;
+  margin-left: -4px;
+  margin-top: -4.0px;
+  object-fit: cover;
+  width: 99px;
+}
+
+.escaneo .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  height: 70px;
+  left: 32px;
+  position: absolute;
+  top: 480px;
+  width: 314px;
+}
+
+.escaneo .asegrate-de-enfocar {
+  flex: 1;
+  height: 72px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.escaneo .botn-accin {
+  background-color: var(--bianca);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000001a;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  left: 32px;
+  position: absolute;
+  top: 584px;
+  width: 312px;
+}
+
+.escaneo .textos-principales-1 {
+  height: 22px;
+  margin-left: 16px;
+  width: 226px;
+}
+
+.escaneo .tomar-captura {
+  flex: 1;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  white-space: nowrap;
+}
+
+.escaneo .continuar {
+  margin-bottom: 12px;
+  margin-right: 16px;
+  margin-top: 12px;
+}
+
+.escaneo .flecha {
+  justify-content: flex-end;
+}
+
+.escaneo .lnea-container {
+  height: 17px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.escaneo .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.escaneo .lnea-2 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 22px;
+}
+
+.escaneo .lnea-3 {
+  height: 10px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.escaneo .lnea-5 {
+  height: 11px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.escaneo .rectngulo-49 {
+  background-color: var(--mountain-mist);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 24px;
+  top: 0;
+}
+
+.escaneo .barra-men {
+  align-items: center;
+  display: flex;
+  height: 63px;
+  left: 33px;
+  min-width: 309px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 705px;
+}
+
+.escaneo .reading-open-book {
+  background-image: url(../img/grupo-114-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 33px;
+  margin-top: 0.61px;
+  width: 33px;
+}
+
+.escaneo .botn-de-escaneo {
+  align-items: flex-start;
+  display: flex;
+  height: 63px;
+  justify-content: center;
+  margin-left: 90px;
+  min-width: 63px;
+}
+
+.escaneo .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/trazado-1100-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 90px;
+  margin-top: -9.0px;
+  min-width: 90px;
+  padding: 19.1px 23.6px;
+}
+
+.escaneo .cono-escaneo {
+  background-image: url(../img/grupo-103-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.escaneo .web-page-home {
+  background-image: url(../img/grupo-105-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 32px;
+  margin-left: 86px;
+  margin-top: 1.32px;
+  width: 37px;
+}
+
+.escaneo .componente-24-29 {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  left: 32px;
+  position: absolute;
+  top: 40px;
+  width: 96px;
+}
+
+.escaneo .lnea-container-1 {
+  height: 17px;
+  margin-left: -2px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.escaneo .lnea-1-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 19px;
+}
+
+.escaneo .lnea-2-1 {
+  height: 3px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 22px;
+}
+
+.escaneo .lnea-3-1 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.escaneo .lnea-5-1 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.escaneo .textos-principales-2 {
+  flex: 1;
+  height: 26px;
+  margin-top: -11.1px;
+  width: 50px;
+}
+
+.escaneo .ayuda {
+  align-items: center;
+  display: flex;
+  gap: 1px;
+  height: 31px;
+  left: 268px;
+  min-width: 84px;
+  position: absolute;
+  top: 40px;
+}
+
+.escaneo .texto-pequeo {
+  display: flex;
+  height: 19px;
+  margin-bottom: 2.0px;
+  width: 52px;
+}
+
+.escaneo .ayuda-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -3.5px;
+  margin-right: -2px;
+  margin-top: 1.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.escaneo .overlap-group1 {
+  height: 31px;
+  position: relative;
+  width: 31px;
+}
+
+.escaneo .text-6 {
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.escaneo .continuar-2 {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.escaneo .grupo {
+  align-items: flex-start;
+  display: flex;
+}
+
+.escaneo .rectngulo {
+  left: 0;
+  position: absolute;
+  width: 375px;
+}
+
+.escaneo .textos-principales-3 {
+  align-items: flex-end;
+  display: flex;
+}

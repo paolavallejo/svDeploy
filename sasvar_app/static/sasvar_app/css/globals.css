@@ -1,0 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/64ecfec736502f67d44025ee.64ecfec836502f67d44025f1.3kY1N1U.hcp.png");
+
+@font-face {
+  font-family: "ArialRounded MT-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ARLRDBD.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/AktivGrotesk-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "AktivGrotesk-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AktivGrotesk-Regular.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.atrs {
+  flex: 1;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  white-space: nowrap;
+}
+
+.trazado-1059 {
+  height: 31px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.capturar-de-nuevo {
+  flex: 1;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  white-space: nowrap;
+}
+
+.verde {
+  background-image: url(../img/verde-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 208px;
+  left: 88px;
+  position: absolute;
+  top: 112px;
+  width: 208px;
+}
+
+.flecha-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  min-width: 19px;
+}
+
+.omitir {
+  color: #aeb3b7;
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  text-align: right;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.textos-principales-4 {
+  align-items: flex-end;
+  display: flex;
+}
+
+.blanca {
+  background-image: url(../img/blanca-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 208px;
+  left: 88px;
+  position: absolute;
+  top: 112px;
+  width: 208px;
+}
+
+.puede-que-encuentres {
+  flex: 1;
+  height: 146px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}

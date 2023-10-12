@@ -1,0 +1,319 @@
+/* screen - inicio */
+
+.inicio {
+  align-items: center;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 369px;
+}
+
+.inicio .componente-13-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6.0px;
+  margin-top: -24px;
+  min-width: 375px;
+}
+
+.inicio .overlap-group1 {
+  height: 120px;
+  position: relative;
+  width: 375px;
+}
+
+.inicio .rectngulo-44 {
+  background-color: var(--shark);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000000f;
+  height: 120px;
+  top: 0;
+  width: 369px;
+}
+
+.inicio .ayuda {
+  align-items: center;
+  display: flex;
+  gap: 1px;
+  height: 31px;
+  left: 268px;
+  min-width: 84px;
+  position: absolute;
+  top: 65px;
+}
+
+.inicio .texto-pequeo {
+  display: flex;
+  height: 19px;
+  margin-bottom: 2.0px;
+  width: 52px;
+}
+
+.inicio .ayuda-1 {
+  color: var(--black-white);
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -3.5px;
+  margin-right: -2px;
+  margin-top: 1.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.inicio .overlap-group-1 {
+  height: 31px;
+  position: relative;
+  width: 31px;
+}
+
+.inicio .text-12 {
+  color: var(--black-white);
+  font-family: var(--font-family-arialrounded_mt-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.inicio .grupo-125 {
+  background-image: url(../img/grupo-124@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  left: 25px;
+  position: absolute;
+  top: 64px;
+  width: 143px;
+}
+
+.inicio .rectngulo-49 {
+  background-color: var(--mountain-mist);
+  height: 24px;
+  top: 24px;
+  width: 375px;
+}
+
+.inicio .link {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000000d;
+  cursor: pointer;
+  display: flex;
+  margin-left: 7.0px;
+  margin-top: 32px;
+  min-width: 312px;
+}
+
+.inicio .overlap-group {
+  border-radius: 16px;
+  height: 256px;
+  position: relative;
+  width: 312px;
+}
+
+.inicio .rectngulo-45 {
+  background-color: var(--fire-bush);
+  border-radius: 16px;
+  height: 96px;
+  top: 0;
+  width: 88px;
+}
+
+.inicio .rectngulo-40 {
+  -webkit-backdrop-filter: blur(50px) brightness(129%);
+  backdrop-filter: blur(50px) brightness(129%);
+  background-color: #ffffff80;
+  border-radius: 16px;
+  box-shadow: 10px 10px 20px #0000001a;
+  height: 256px;
+  top: 0;
+  width: 312px;
+}
+
+.inicio .componente-1-11 {
+  display: flex;
+  height: 27px;
+  left: 31px;
+  position: absolute;
+  top: 37px;
+  width: 177px;
+}
+
+.inicio .textos-principales {
+  display: flex;
+  flex: 1;
+  height: 27px;
+}
+
+.inicio .categoras {
+  color: var(--log-cabin);
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.inicio .conoce-la-clasificac {
+  height: 121px;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 98px;
+  width: 134px;
+}
+
+.inicio .caneca-by-n-cono-pequeo {
+  background-image: url(../img/caneca-byn@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 139px;
+  left: 163px;
+  position: absolute;
+  top: 117px;
+  width: 139px;
+}
+
+.inicio .reading-open-book {
+  background-image: url(../img/grupo-114-8@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  left: 240px;
+  position: absolute;
+  top: 35px;
+  width: 40px;
+}
+
+.inicio .rectngulo-45-1 {
+  background-color: #a0a044;
+  border-radius: 16px;
+  height: 96px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 88px;
+}
+
+.inicio .escner {
+  color: var(--log-cabin);
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.inicio .descubre-en-dnde-de {
+  height: 121px;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 98px;
+  width: 134px;
+}
+
+.inicio .enmascarar-grupo-5 {
+  height: 120px;
+  left: 168px;
+  object-fit: cover;
+  position: absolute;
+  top: 136px;
+  width: 112px;
+}
+
+.inicio .cono-escaneo {
+  background-image: url(../img/grupo-103-8@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 37px;
+  left: 244px;
+  position: absolute;
+  top: 35px;
+  width: 36px;
+}
+
+.inicio .barra-men {
+  align-items: center;
+  display: flex;
+  margin-left: 6.0px;
+  margin-top: 33px;
+  min-width: 309px;
+  padding: 0 0.0px;
+}
+
+.inicio .reading-open-book-1 {
+  background-image: url(../img/grupo-114-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 33px;
+  margin-top: 0.61px;
+  width: 33px;
+}
+
+.inicio .botn-de-escaneo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  justify-content: center;
+  margin-left: 90px;
+  min-width: 63px;
+}
+
+.inicio .overlap-group-2 {
+  align-items: flex-start;
+  background-image: url(../img/trazado-1100-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 90px;
+  margin-top: -9.0px;
+  min-width: 90px;
+  padding: 19.1px 23.6px;
+}
+
+.inicio .cono-escaneo-1 {
+  background-image: url(../img/grupo-103-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.inicio .web-page-home {
+  background-image: url(../img/grupo-105-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  margin-left: 86px;
+  margin-top: 1.32px;
+  width: 37px;
+}
+
+.inicio .rectngulo {
+  left: 0;
+  position: absolute;
+}

@@ -1,0 +1,364 @@
+/* screen - error */
+
+.error {
+  align-items: center;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  width: 375px;
+}
+
+.error .rectngulo-49 {
+  background-color: var(--mountain-mist);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 24px;
+  width: 375px;
+}
+
+.error .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 140px;
+  margin-left: 8.5px;
+  margin-top: 16px;
+  min-width: 320px;
+}
+
+.error .componente-24-26 {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  width: 96px;
+}
+
+.error .lnea-container {
+  height: 17px;
+  margin-left: -2px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.error .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 19px;
+}
+
+.error .lnea-2 {
+  height: 3px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 22px;
+}
+
+.error .lnea-3 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.error .lnea-5 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.error .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 26px;
+  margin-top: -11.1px;
+  width: 50px;
+}
+
+.error .ayuda {
+  align-items: center;
+  display: flex;
+  gap: 1px;
+  min-width: 84px;
+}
+
+.error .texto-pequeo {
+  display: flex;
+  height: 19px;
+  margin-bottom: 2.0px;
+  width: 52px;
+}
+
+.error .ayuda-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -3.5px;
+  margin-right: -2px;
+  margin-top: 1.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.error .overlap-group2 {
+  height: 31px;
+  position: relative;
+  width: 31px;
+}
+
+.error .text-3 {
+  left: 9px;
+  line-height: 20px;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.error .error-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 66px;
+  min-width: 312px;
+}
+
+.error .overlap-group1 {
+  border-radius: 16px;
+  height: 384px;
+  position: relative;
+  width: 312px;
+}
+
+.error .grupo-150 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000000f;
+  display: flex;
+  height: 384px;
+  left: 0;
+  min-width: 312px;
+  position: absolute;
+  top: 0;
+}
+
+.error .rectngulo-container {
+  border-radius: 16px;
+  height: 384px;
+  position: relative;
+  width: 312px;
+}
+
+.error .rectngulo-45 {
+  background-color: #df9e9e;
+  border-radius: 16px;
+  height: 144px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.error .rectngulo-40 {
+  -webkit-backdrop-filter: blur(50px) brightness(133%);
+  backdrop-filter: blur(50px) brightness(133%);
+  border-radius: 16px;
+  box-shadow: 10px 10px 20px #0000001a;
+  height: 384px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.error .textos-principales-1 {
+  height: 91px;
+  left: 24px;
+  position: absolute;
+  top: 258px;
+  width: 266px;
+}
+
+.error .lo-sentimos-no-pudi {
+  color: var(--log-cabin);
+  flex: 1;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  height: 93px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+}
+
+.error .text-2 {
+  color: var(--shark);
+  font-family: var(--font-family-aktivgrotesk-bold);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  left: 120px;
+  line-height: 45px;
+  top: 140px;
+  width: 73px;
+}
+
+.error .botn-accin {
+  background-color: var(--bianca);
+  border-radius: 16px;
+  box-shadow: 6px 6px 20px #0000001a;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 312px;
+}
+
+.error .textos-principales-2 {
+  height: 22px;
+  margin-left: 16px;
+  width: 226px;
+}
+
+.error .continuar-1 {
+  margin-bottom: 12px;
+  margin-right: 16px;
+  margin-top: 12px;
+}
+
+.error .flecha-1 {
+  justify-content: flex-end;
+}
+
+.error .lnea-container-1 {
+  height: 17px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.error .lnea-1-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.error .lnea-2-1 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 22px;
+}
+
+.error .lnea-3-1 {
+  height: 10px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.error .lnea-5-1 {
+  height: 11px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.error .barra-men {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 81px;
+  min-width: 309px;
+}
+
+.error .reading-open-book {
+  background-image: url(../img/grupo-114-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 33px;
+  margin-top: 0.61px;
+  width: 33px;
+}
+
+.error .botn-de-escaneo {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  justify-content: center;
+  margin-left: 90px;
+  min-width: 63px;
+}
+
+.error .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/trazado-1100-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 90px;
+  margin-top: -9.0px;
+  min-width: 90px;
+  padding: 19.1px 23.6px;
+}
+
+.error .cono-escaneo {
+  background-image: url(../img/grupo-103-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.error .web-page-home {
+  background-image: url(../img/grupo-105-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 32px;
+  margin-left: 86px;
+  margin-top: 1.32px;
+  width: 37px;
+}
+
+.error .continuar-2 {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.error .text {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.error .textos-principales-3 {
+  align-items: flex-end;
+  display: flex;
+}

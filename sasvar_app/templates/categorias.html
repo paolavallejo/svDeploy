@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/categorias.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
+  </head>
+  <body style="margin: 0; background: #fdfdfd">
+    <input type="hidden" id="anPageName" name="page" value="categorias" />
+    <div class="container-center-horizontal">
+      <div class="categorias screen">
+        <div class="rectngulo-49"></div>
+        <div class="flex-row">
+          <a href="{% url 'inicio' %}">
+            <div class="componente-24-21">
+              <div class="continuar">
+                <div class="flecha">
+                  <div class="lnea-container">
+                    <img class="lnea-1" src="{% static 'sasvar_app/img/l-nea-1-10@1x.png' %}" alt="Lnea 1" />
+                    <img class="lnea-2" src="{% static 'sasvar_app/img/l-nea-2-10@1x.png' %}" alt="Lnea 2" />
+                    <img class="lnea-3" src="{% static 'sasvar_app/img/l-nea-3-12@1x.png' %}" alt="Lnea 3" />
+                    <img class="lnea-5" src="{% static 'sasvar_app/img/l-nea-5-11@1x.png' %}" alt="Lnea 5" />
+                  </div>
+                </div>
+              </div>
+              <div class="textos-principales-1"><div class="atrs montserrat-normal-log-cabin-18px">Atrás</div></div>
+            </div></a
+          >
+          <div class="ayuda">
+            <div class="texto-pequeo"><div class="ayuda-1 montserrat-normal-shark-16px">Ayuda</div></div>
+            <div class="overlap-group4">
+              <div class="text-11 arialroundedmt-bold-shark-20px">?</div>
+              <img class="trazado-1059" src="{% static 'sasvar_app/img/trazado-1059-1@1x.png' %}" alt="Trazado 1059" />
+            </div>
+          </div>
+        </div>
+        <a href="{% url 'detalle_reci_q1' %}">
+          <div class="tarjeta-categora">
+            <div class="overlap-group">
+              <div class="rectngulo-46"></div>
+              <div class="rectngulo-45-1 rectngulo-45-3"></div>
+              <div class="rectngulo-40-1 rectngulo-40-3"></div>
+              <div class="componente-1-11">
+                <div class="textos-principales">
+                  <p class="papel-y-cartn-limpios montserrat-bold-log-cabin-22px">
+                    Papel y cartón&nbsp;&nbsp;&nbsp;&nbsp;limpios
+                  </p>
+                </div>
+              </div>
+              <img class="residuo residuo-4" src="{% static 'sasvar_app/img/residuo-1@1x.png' %}" alt="Residuo" />
+            </div></div></a
+        ><a href="{% url 'detalle-reci-2' %}">
+          <div class="tarjeta-categora-1 tarjeta-categora-4">
+            <div class="overlap-group1">
+              <div class="rectngulo-46-1 rectngulo-46-3"></div>
+              <div class="rectngulo-45"></div>
+              <div class="rectngulo-40"></div>
+              <div class="componente-1-11-1 componente-1-11-4">
+                <div class="textos-principales">
+                  <div class="empaques-y-envoltorios montserrat-bold-log-cabin-22px">Empaques y envoltorios</div>
+                </div>
+              </div>
+              <img class="residuo-1 residuo-4" src="{% static 'sasvar_app/img/residuo-1@1x.png' %}" alt="Residuo" />
+            </div></div></a
+        ><a href="{% url 'detalle-no-aprov' %}">
+          <div class="tarjeta-categora-2 tarjeta-categora-4">
+            <div class="overlap-group2">
+              <div class="rectngulo-45"></div>
+              <div class="rectngulo-40"></div>
+              <div class="componente-1-11-2 componente-1-11-4">
+                <div class="textos-principales-2">
+                  <div class="residuos-no-aprivechables montserrat-bold-log-cabin-22px">Residuos no aprovechables</div>
+                </div>
+              </div>
+              <img class="residuo-2 residuo-4" src="{% static 'sasvar_app/img/residuo-2@1x.png' %}" alt="Residuo" />
+            </div></div></a
+        ><a href="{% url 'detalle-org' %}">
+          <div class="tarjeta-categora-3 tarjeta-categora-4">
+            <div class="overlap-group3">
+              <div class="rectngulo-46-2 rectngulo-46-3"></div>
+              <div class="rectngulo-45-2 rectngulo-45-3"></div>
+              <div class="rectngulo-40-2 rectngulo-40-3"></div>
+              <div class="componente-1-11-3 componente-1-11-4">
+                <div class="textos-principales-3">
+                  <div class="orgnicos montserrat-bold-log-cabin-22px">Orgánicos</div>
+                </div>
+              </div>
+              <img class="residuo-3 residuo-4" src="{% static 'sasvar_app/img/residuo-3@1x.png' %}" alt="Residuo" />
+            </div></div></a
+        ><a href="{% url 'detalle-reci-2' %}">
+          <div class="barra-men">
+            <div class="reading-open-book"></div>
+            <a href="{% url 'escaneo' %}" onclick="window.event.stopPropagation()">
+              <div class="botn-de-escaneo">
+                <div class="overlap-group-1">
+                  <div class="cono-escaneo"></div>
+                </div></div></a
+            ><a href="{% url 'inicio' %}" onclick="window.event.stopPropagation()"> <div class="web-page-home"></div></a></div
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+/* screen - carga */
+
+.carga {
+  align-items: center;
+  background-color: var(--coconut);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  width: 375px;
+}
+
+.carga .rectngulo-49 {
+  background-color: var(--mountain-mist);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 24px;
+  width: 375px;
+}
+
+.carga .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 132px;
+  height: 56px;
+  margin-left: 9.0px;
+  min-width: 320px;
+}
+
+.carga .componente-24-28 {
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  width: 96px;
+}
+
+.carga .continuar {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
+}
+
+.carga .flecha {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  min-width: 19px;
+}
+
+.carga .lnea-container {
+  height: 17px;
+  margin-left: -2px;
+  margin-top: -2.12px;
+  position: relative;
+  width: 23px;
+}
+
+.carga .lnea-1 {
+  height: 1px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 19px;
+}
+
+.carga .lnea-2 {
+  height: 3px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 22px;
+}
+
+.carga .lnea-3 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.carga .lnea-5 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.carga .textos-principales {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 26px;
+  margin-top: -11.1px;
+  width: 50px;
+}
+
+.carga .ayuda-container {
+  height: 47px;
+  position: relative;
+  width: 92px;
+}
+
+.carga .ayuda {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  height: 31px;
+  left: 0;
+  min-width: 80px;
+  position: absolute;
+  top: 0;
+}
+
+.carga .texto-pequeo {
+  display: flex;
+  height: 15px;
+  margin-top: 2.0px;
+  width: 44px;
+}
+
+.carga .ayuda-1 {
+  color: var(--black-white);
+  flex: 1;
+  font-family: var(--font-family-aktivgrotesk-regular);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 44px;
+}
+
+.carga .overlap-group {
+  height: 31px;
+  position: relative;
+  width: 31px;
+}
+
+.carga .text-4 {
+  color: var(--black-white);
+  font-family: var(--font-family-arialrounded_mt-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.carga .ayuda-2 {
+  align-items: center;
+  display: flex;
+  gap: 1px;
+  height: 31px;
+  left: 8px;
+  min-width: 84px;
+  position: absolute;
+  top: 16px;
+}
+
+.carga .texto-pequeo-1 {
+  display: flex;
+  height: 19px;
+  margin-bottom: 2.0px;
+  width: 52px;
+}
+
+.carga .ayuda-3 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -3.5px;
+  margin-right: -2px;
+  margin-top: 1.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.carga .grupo-136 {
+  background-image: url(../img/grupo-135@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 72px;
+  margin-left: 1.0px;
+  margin-top: 256px;
+  width: 72px;
+}
+
+.carga .textos-principales-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 70px;
+  margin-left: 3.0px;
+  margin-top: 16px;
+  width: 250px;
+}
+
+.carga .cargandoeste-pro {
+  flex: 1;
+  height: 72px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -2px;
+  text-align: center;
+}
+
+.carga .text {
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
