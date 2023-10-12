@@ -1,7 +1,7 @@
 import os
 from django.http import JsonResponse
 import requests
-from SasvarProject.sasvar.settings import MEDIA_ROOT
+from sasvar.settings import MEDIA_ROOT
 
 def clasificarMaterial(file):
     try:
