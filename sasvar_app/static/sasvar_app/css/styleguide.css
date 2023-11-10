@@ -31,6 +31,15 @@
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
+  margin: 1px 1px -19px 1px;
+}
+.montserrat-normal-log-cabin-18px-2 {
+  color: var(--log-cabin);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  margin: 1px 1px 12px 1px;
 }
 
 .montserrat-normal-shark-16px {

@@ -2,14 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'sasvar_app/img/trazado-1091@1x.png' %}" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
 
-    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/bienvenida.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
@@ -21,9 +19,9 @@
         <div class="grupo-134 grupo"></div>
         <div class="overlap-group1">
           <div class="grupo-133 grupo"></div>
-          <div class="ttulos-grandes"><h1 class="title">Bienvenido la app sasvar</h1></div>
+          <div class="ttulos-grandes"><h1 class="title">Bienvenido a la App Sasvar</h1></div>
           <div class="textos-principales">
-            <p class="recibe-asistencia-pa">Recibe asistencia para separar tus residuos e información de utilidad</p>
+            <p class="recibe-asistencia-pa">Recibe información de utilidad y asistencia para separar tus residuos</p>
           </div>
           <!-- <a href="intro-1.html"> -->
           <a href="{% url 'intro_1' %}">

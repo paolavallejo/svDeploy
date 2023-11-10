@@ -2,14 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'sasvar_app/img/trazado-1091@1x.png' %}" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
 
-    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/intro-6.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
@@ -30,11 +28,10 @@
                 </div>
               </div>
             </div>
-            <div class="textos-principales"><div class="atrs montserrat-normal-log-cabin-18px">Atrás</div></div>
+            <a href="{% url 'intro_1' %}">
+              <div class="textos-principales"><div class="atrs montserrat-normal-log-cabin-18px-2">Atrás</div></div>
+            </a>
           </div>
-          <a href="{% url 'inicio' %}">
-            <div class="textos-principales-1 textos-principales-4"><div class="omitir">Omitir</div></div></a
-          >
         </div>
         <div class="ttulos-grandes">
           <h1 class="consulta-la-clasific">Consulta la clasificación general de los residuos</h1>
@@ -52,10 +49,10 @@
             <div class="continuar-2">
               <div class="flecha-1">
                 <div class="lnea-container-1">
-                  <img class="lnea-1-1" src="img/l-nea-1-10@1x.png" alt="Lnea 1" />
-                  <img class="lnea-2-1" src="img/l-nea-2-10@1x.png" alt="Lnea 2" />
-                  <img class="lnea-3-1" src="img/l-nea-3-10@1x.png" alt="Lnea 3" />
-                  <img class="lnea-5-1" src="img/l-nea-5-10@1x.png" alt="Lnea 5" />
+                  <img class="lnea-1-1" src="{% static 'sasvar_app/img/l-nea-1-10@1x.png' %}" alt="Lnea 1" />
+                  <img class="lnea-2-1" src="{% static 'sasvar_app/img/l-nea-2-10@1x.png' %}" alt="Lnea 2" />
+                  <img class="lnea-3-1" src="{% static 'sasvar_app/img/l-nea-3-10@1x.png' %}" alt="Lnea 3" />
+                  <img class="lnea-5-1" src="{% static 'sasvar_app/img/l-nea-5-10@1x.png' %}" alt="Lnea 5" />
                 </div>
               </div>
             </div></div

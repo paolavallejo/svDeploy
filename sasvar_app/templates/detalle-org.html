@@ -2,14 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'sasvar_app/img/trazado-1091@1x.png' %}" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
 
-    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/detalle-org.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
@@ -35,6 +33,7 @@
               <div class="textos-principales"><div class="atrs montserrat-normal-log-cabin-18px">Atrás</div></div>
             </div></a
           >
+          <!--
           <div class="ayuda">
             <div class="texto-pequeo"><div class="ayuda-1 montserrat-normal-shark-16px">Ayuda</div></div>
             <div class="overlap-group1">
@@ -42,6 +41,7 @@
               <img class="trazado-1059" src="{% static 'sasvar_app/img/trazado-1059-1@1x.png' %}" alt="Trazado 1059" />
             </div>
           </div>
+          -->
         </div>
         <div class="componente-25-1">
           <div class="overlap-group2">
@@ -61,8 +61,8 @@
           </p>
         </div>
         <div class="barra-men">
-          <a href="{% url 'inicio' %}"> <div class="reading-open-book"></div></a
-          ><a href="{% url 'escaneo' %}">
+         <div class="reading-open-book"></div>
+         <a href="{% url 'escaneo' %}">
             <div class="botn-de-escaneo">
               <div class="overlap-group">
                 <div class="cono-escaneo"></div>

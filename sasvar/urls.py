@@ -22,10 +22,9 @@ from django.urls import path
 from sasvar_app import views as sasvarViews
 
 urlpatterns = [
+    path('', sasvarViews.bienvenida, name='home'),
     path('admin/', admin.site.urls),
-    path('', sasvarViews.home),
-    path('about/', sasvarViews.about),
-    path('bienvenida/', sasvarViews.bienvenida),
+    path('bienvenida/', sasvarViews.bienvenida, name='bienvenida'),
     path('inicio/', sasvarViews.inicio, name='inicio'),
     path('intro_1/', sasvarViews.intro_1, name='intro_1'),
     path('escaneo/', sasvarViews.escaneo, name='escaneo'),
@@ -36,10 +35,9 @@ urlpatterns = [
     path('detalle-no-aprov/', sasvarViews.detalle_no_aprov, name='detalle-no-aprov'),
     path('detalle-org/', sasvarViews.detalle_org, name='detalle-org'),
     path('carga/', sasvarViews.carga, name='carga'),
+    path('resultado/<str:material>/', sasvarViews.resultado, name='resultado'),
     path('resultado/', sasvarViews.resultado, name='resultado'),
-    path('clasificar/', sasvarViews.clasificar, name='clasificar'),
+
 
     path('guardar_imagen/', sasvarViews.guardar_imagen, name='guardar_imagen'),
-
-    #path('classify_garbage/', sasvarViews.classify_garbage_image, name='classify_garbage'),
 ] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

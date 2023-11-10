@@ -2,14 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'sasvar_app/img/trazado-1091@1x.png' %}" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
 
-    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/resultado.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/styleguide.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'sasvar_app/css/globals.css' %}" />
@@ -18,7 +16,7 @@
     <input type="hidden" id="anPageName" name="page" value="resultado" />
     <div class="container-center-horizontal">
       <div class="resultado screen">
-        <div class="rectngulo-49"></div>
+        <!--<div class="rectngulo-49"></div>-->
         <div class="flex-row">
           <a href="{% url 'escaneo' %}">
             <div class="componente-24-27">
@@ -35,6 +33,7 @@
               <div class="textos-principales"><div class="atrs montserrat-normal-log-cabin-18px">Atrás</div></div>
             </div></a
           >
+          <!--
           <div class="ayuda">
             <div class="texto-pequeo"><div class="ayuda-1 montserrat-normal-shark-16px">Ayuda</div></div>
             <div class="overlap-group2">
@@ -42,6 +41,7 @@
               <img class="trazado-1059" src="{% static 'sasvar_app/img/trazado-1059-1@1x.png' %}" alt="Trazado 1059" />
             </div>
           </div>
+          -->
         </div>
         <div class="textos-principales-1 textos-principales-3">
           <p class="este-es-el-residuo-que-detectamos">Este es el residuo que detectamos:</p>
@@ -61,8 +61,9 @@
                   <img class="lnea-5-1" src="{% static 'sasvar_app/img/l-nea-5-10@1x.png' %}" alt="Lnea 5" />
                 </div>
               </div>
-            </div></div
-        ></a>
+            </div>
+          </div>
+        </a>
         <div class="componente-25-5">
           <div class="overlap-group1">
             <div class="rectngulo-container">
@@ -70,11 +71,23 @@
               <div class="rectngulo-45"></div>
               <div class="rectngulo-40"></div>
             </div>
+            {% if resultado_clasificacion == 'carton' or resultado_clasificacion == 'papel'%}
+            <div class="blanca"></div>
+            <div class="orgnicos montserrat-bold-shark-30px">Papel y cartón limpios</div>
+            {% elif resultado_clasificacion == 'plastico' or resultado_clasificacion == 'aluminio' or resultado_clasificacion == 'pet' or resultado_clasificacion == 'vidrio' or resultado_clasificacion == 'tetrapak'%}
+            <div class="blanca"></div>
+            <div class="orgnicos montserrat-bold-shark-30px">Empaques y envoltorios</div>
+            {% elif resultado_clasificacion == 'mixto' %}
+            <div class="verde"></div>
+            <div class="orgnicos montserrat-bold-shark-30px">Residuos no aprovechables</div>
+            {% else%}
             <div class="verde"></div>
             <div class="orgnicos montserrat-bold-shark-30px">Orgánicos</div>
+            {% endif %}
           </div>
         </div>
         <div class="barra-men">
+        <a href="{% url 'categorias' %}">
           <div class="reading-open-book"></div>
           <a href="{% url 'escaneo' %}">
             <div class="botn-de-escaneo">

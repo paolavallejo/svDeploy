@@ -91,6 +91,7 @@
   position: absolute;
   top: 480px;
   width: 314px;
+  margin-top: -20px;
 }
 
 .escaneo .asegrate-de-enfocar {
@@ -107,7 +108,7 @@
   box-shadow: 6px 6px 20px #0000001a;
   cursor: pointer;
   display: flex;
-  height: 64px;
+  height: 60px;
   justify-content: space-between;
   left: 32px;
   position: absolute;
@@ -291,7 +292,16 @@
 
 .escaneo .lnea-3-1 {
   height: 10px;
-  left: 0;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.escaneo .lnea-3-2 {
+  height: 10px;
+  left: 12px;
   object-fit: cover;
   position: absolute;
   top: 7px;
@@ -307,11 +317,21 @@
   width: 12px;
 }
 
+.escaneo .lnea-5-2 {
+  height: 11px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+
 .escaneo .textos-principales-2 {
   flex: 1;
   height: 26px;
-  margin-top: -11.1px;
   width: 50px;
+  margin-top: 12px;
 }
 
 .escaneo .ayuda {
@@ -383,4 +403,19 @@
 .escaneo .textos-principales-3 {
   align-items: flex-end;
   display: flex;
+}
+
+.escaneo .continuar-1 {
+  margin-bottom: 1px;
+  margin-right: 16px;
+  margin-top: 12px;
+}
+
+.escaneo .continuar-2 {
+  align-items: flex-start;
+  background-color: var(--fire-bush);
+  border-radius: 20px;
+  display: flex;
+  min-width: 40px;
+  padding: 13px 10px;
 }

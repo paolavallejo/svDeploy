@@ -2,7 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 from .models import Waste
-from .util.clasificador import clasificarMaterial
+#from .util.clasificador import clasificarMaterial
+
+#JC
+from .util.clasificador import send_request
 
 import requests
 import urllib.parse
@@ -16,12 +19,7 @@ from sasvar import settings
 from django.views.decorators.csrf import csrf_exempt
 import base64
 
-
-def home(request): 
-    return render(request, 'home.html')
-
-def about(request): 
-    return HttpResponse('<h1>Welcome to About Page</h1>')
+import json
 
 def bienvenida(request): 
     return render(request, 'bienvenida.html')
@@ -29,8 +27,10 @@ def bienvenida(request):
 def inicio(request): 
     return render(request, 'inicio.html')
 
-def escaneo(request): 
-    return render(request, 'escaneo.html')
+def escaneo(request):
+    context = {'server_url': 'https://u2f5le55w5.execute-api.us-east-2.amazonaws.com/DummyStage/newdata/fromweb', 
+               'apikey': 'Gq5isfVY25aCcyxYDf1xa3BocEMrCLUk2IcmfXaw'} 
+    return render(request, 'escaneo.html', context)
 
 def intro_1(request): 
     return render(request, 'intro_1.html')
@@ -56,28 +56,8 @@ def detalle_org(request):
 def carga(request): 
     return render(request, 'carga.html')
 
-def resultado(request): 
-    resultado_clasificacion = "PLASTIC"
-    return render(request, 'resultado.html', {'resultado_clasificacion': resultado_clasificacion})
-
-
-"""def guardar_imagen(request):
-    if request.method == 'POST':
-        # Obtener la imagen capturada desde la solicitud POST
-        imagen = request.FILES['imagen']
-
-        # Guardar la imagen en la carpeta de medios
-        nombre_archivo = os.path.join('sasvar_app/images', imagen.name)
-        with open(os.path.join(settings.MEDIA_ROOT, nombre_archivo), 'wb') as archivo:
-            for chunk in imagen.chunks():
-                archivo.write(chunk)
-
-        # Devolver una respuesta JSON
-        return JsonResponse({'mensaje': 'Imagen guardada con éxito'})
-    else:
-        return JsonResponse({'error': 'Método no permitido'}, status=405)
-"""  
-
+def resultado(request, material): 
+    return render(request, 'resultado.html', {'resultado_clasificacion': material})
 
 # Temporalmente en tu vista Django para pruebas
 @csrf_exempt
@@ -85,35 +65,21 @@ def guardar_imagen(request):
     if request.method == 'POST':
         try:
             image = request.FILES['image']
-            residuo = Waste(imagen = image, img_name = request.POST['name'], waste_type = 1, container_id = 1)
+            residuo = Waste(imagen = image, img_name = request.POST['name'], waste_type = ' ', container_id = 1)
             residuo.save()
-            response = clasificarMaterial(residuo.imagen.name)
-            return JsonResponse({'success': response.json()})
+            #response = clasificarMaterial('sasvar_app/images/' + image.name).json()[0]['label']
+            #residuo.waste_type = response
+            #residuo.save()
+
+            #JC
+            response = send_request('sasvar_app/images/' + image.name)
+            res = json.loads(response)
+            #print("response", res['prediction'])
+            print("Respuesta modelo: ",res['prediction'])
+            residuo.waste_type = res['prediction']
+            residuo.save()
+
+            return render(request, 'resultado.html', {'resultado_clasificacion': residuo.waste_type})
         except Exception as e:
             print(e)
             return JsonResponse({'error': 'Error al guardar la imagen: ' + str(e)})
-
-
-@csrf_exempt
-def clasificar(request):
-    if request.method == 'POST':
-        
-        try:
-            API_URL = "https://api-inference.huggingface.co/models/pvallej3/garbage_classifier"
-            headers = {"Authorization": "Bearer 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"}
-            
-            pwd = os.path.dirname(__file__)
-            file_path = os.path.join(pwd, 'botella.JPG')
-            print(pwd)
-
-            with open(file_path, "rb") as f:
-                data = f.read()  
-            response = requests.post(API_URL, headers=headers, data=data)
-            return JsonResponse({'success': response.json()})
-        except Exception as e:
-            return JsonResponse({'error': 'Error al procesar la imagen: '+ str(e)})
-
-#output = clasificar()
-#print(output)
-
-

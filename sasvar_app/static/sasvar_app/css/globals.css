@@ -1,7 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700,400");
-/* The following line is used to measure usage of this code. You can remove it if you want. */
-@import url("https://px.animaapp.com/64ecfec736502f67d44025ee.64ecfec836502f67d44025f1.3kY1N1U.hcp.png");
 
 @font-face {
   font-family: "ArialRounded MT-Bold";
@@ -135,4 +133,15 @@
   letter-spacing: 0;
   line-height: 24px;
   margin-right: -2px;
+}
+
+.negra {
+  background-image: url(../img/negra-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 208px;
+  left: 88px;
+  position: absolute;
+  top: 112px;
+  width: 208px;
 }
